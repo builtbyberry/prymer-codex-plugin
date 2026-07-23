@@ -1,0 +1,26 @@
+{
+    "hooks": {
+        "SessionStart": [
+            {
+                "matcher": "startup|resume|compact",
+                "hooks": [
+                    {
+                        "type": "command",
+                        "command": "printf '%s' 'Prymer is connected. Before starting work, call the get_context_for_injection MCP tool for the active Prymer channel (confirm it with the user; do not pick one from list_channels yourself) to load what other sessions already know.'",
+                        "statusMessage": "Loading Prymer context"
+                    }
+                ]
+            }
+        ],
+        "Stop": [
+            {
+                "hooks": [
+                    {
+                        "type": "command",
+                        "command": "printf '%s' 'If you finished a meaningful chunk of work, checkpoint it to the Prymer channel per its capture mode. Follow the guidance returned by get_context_for_injection: Auto means call share_session with trigger=agent_auto; Propose means ask the user first; Off means keep it private.'"
+                    }
+                ]
+            }
+        ]
+    }
+}

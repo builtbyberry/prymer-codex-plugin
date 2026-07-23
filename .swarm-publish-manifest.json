@@ -1,0 +1,22 @@
+[
+    ".agents/plugins/marketplace.json",
+    "README.md",
+    "plugins/prymer/.codex-plugin/plugin.json",
+    "plugins/prymer/.mcp.json",
+    "plugins/prymer/LICENSE",
+    "plugins/prymer/README.md",
+    "plugins/prymer/hooks/hooks.json",
+    "plugins/prymer/skills/checkpoint/SKILL.md",
+    "plugins/prymer/skills/curate/SKILL.md",
+    "plugins/prymer/skills/dispatch/SKILL.md",
+    "plugins/prymer/skills/handoff/SKILL.md",
+    "plugins/prymer/skills/load/SKILL.md",
+    "plugins/prymer/skills/onboard/SKILL.md",
+    "plugins/prymer/skills/project/SKILL.md",
+    "plugins/prymer/skills/prymer/SKILL.md",
+    "plugins/prymer/skills/prymer/reference/capture-modes.md",
+    "plugins/prymer/skills/prymer/reference/curation.md",
+    "plugins/prymer/skills/prymer/reference/dispatch.md",
+    "plugins/prymer/skills/prymer/reference/handoff.md",
+    "plugins/prymer/skills/prymer/reference/tools.md"
+]

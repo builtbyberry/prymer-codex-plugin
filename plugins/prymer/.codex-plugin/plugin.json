@@ -1,0 +1,41 @@
+{
+    "name": "prymer",
+    "version": "0.7.0",
+    "description": "Prymer shared context bus \u2014 connects the hosted Prymer MCP server, teaches the load-at-start / checkpoint-at-end ritual, and ships the skill for loading, checkpointing, onboarding, curation, handoffs, dispatch, and the Projects produce-loop.",
+    "author": {
+        "name": "Prymer",
+        "url": "https://swarmplatform.cloud"
+    },
+    "homepage": "https://swarmplatform.cloud",
+    "license": "Apache-2.0",
+    "keywords": [
+        "prymer",
+        "context",
+        "memory",
+        "mcp",
+        "collaboration",
+        "handoff",
+        "dispatch"
+    ],
+    "skills": "./skills/",
+    "mcpServers": "./.mcp.json",
+    "hooks": "./hooks/hooks.json",
+    "interface": {
+        "displayName": "Prymer",
+        "shortDescription": "Shared context bus for your AI sessions.",
+        "longDescription": "Prymer is shared memory for your coding sessions. Load what other sessions already know at the start of a task, checkpoint your work at the end, and curate durable knowledge into channel records \u2014 so context travels with you and your team.",
+        "developerName": "Prymer",
+        "category": "Productivity",
+        "capabilities": [
+            "Read",
+            "Write"
+        ],
+        "websiteURL": "https://swarmplatform.cloud",
+        "brandColor": "#BC5C36",
+        "defaultPrompt": [
+            "Load Prymer context for this project.",
+            "What does Prymer already know about this?",
+            "Checkpoint my work to Prymer."
+        ]
+    }
+}
