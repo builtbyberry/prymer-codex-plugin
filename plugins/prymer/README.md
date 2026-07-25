@@ -4,7 +4,7 @@ Connects this project to Prymer, the shared context bus, and teaches Codex the r
 
 ## What is inside
 
-- `.mcp.json` — connects the hosted Prymer MCP server at `https://swarmplatform.cloud/mcp/prymer` (browser sign-in on install; no token to copy).
+- `.mcp.json` — connects the hosted Prymer MCP server at `https://prymer.app/mcp/prymer` (browser sign-in on install; no token to copy).
 - `skills/prymer/` — the Prymer skill: how to use the tools well (loading, checkpointing, curation, handoffs, and dispatch).
 - `skills/` — the `prymer-load`, `prymer-checkpoint`, `prymer-onboard`, `prymer-curate`, `prymer-handoff`, `prymer-dispatch`, and `prymer-project` skills (invoke with `$prymer-load` or `/skills`).
 - `hooks/hooks.json` — reminders to load context at session start (and again after a compaction) and checkpoint when you finish.
