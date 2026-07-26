@@ -1,6 +1,6 @@
 # Prymer — Codex plugin marketplace
 
-The Codex CLI plugin marketplace for [Prymer](https://swarmplatform.cloud), the shared context bus. Installing the `prymer` plugin connects the hosted Prymer MCP server, ships the Prymer skill, and adds hooks that teach the load-at-start / checkpoint-at-end ritual.
+The Codex CLI plugin marketplace for [Prymer](https://prymer.app), the shared context bus. Installing the `prymer` plugin connects the hosted Prymer MCP server, ships the Prymer skill, and adds hooks that teach the load-at-start / checkpoint-at-end ritual.
 
 ## Install
 
