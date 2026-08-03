@@ -11,6 +11,13 @@ Connects this project to Prymer, the shared context bus, and teaches Codex the r
 
 ## Install
 
+Fastest — add the Prymer marketplace and install (no download):
+
+```bash
+codex plugin marketplace add builtbyberry/prymer-codex-plugin
+codex plugin add prymer
+```
+
 Downloaded this as a zip? It is a self-contained marketplace — from the directory you unzipped it into:
 
 ```bash
