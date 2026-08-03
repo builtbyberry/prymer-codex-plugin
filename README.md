@@ -4,14 +4,12 @@ The Codex CLI plugin marketplace for [Prymer](https://prymer.app), the shared co
 
 ## Install
 
-In the Codex CLI:
+This tree is a self-contained marketplace. In the Codex CLI, from this directory:
 
 ```bash
-codex plugin marketplace add builtbyberry/prymer-codex-plugin
+codex plugin marketplace add ./
 codex plugin add prymer
 ```
-
-Downloaded this as a zip instead? It is a self-contained marketplace — run `codex plugin marketplace add ./` from the directory you unzipped it into, then install as above.
 
 On install, Codex opens Prymer in your browser to authorize — no token to copy. If the connection needs a manual sign-in, run `codex mcp login prymer`. Codex will ask you to trust the plugin hooks on first run (`/hooks`).
 
