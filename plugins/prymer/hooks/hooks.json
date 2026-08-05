@@ -12,6 +12,17 @@
                 ]
             }
         ],
+        "PreToolUse": [
+            {
+                "matcher": "mcp__prymer__get_context_for_injection",
+                "hooks": [
+                    {
+                        "type": "command",
+                        "command": "node \"${PLUGIN_ROOT}/hooks/set-host-session.mjs\" codex"
+                    }
+                ]
+            }
+        ],
         "Stop": [
             {
                 "hooks": [
