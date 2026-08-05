@@ -6,6 +6,7 @@
     "plugins/prymer/LICENSE",
     "plugins/prymer/README.md",
     "plugins/prymer/hooks/hooks.json",
+    "plugins/prymer/hooks/set-host-session.mjs",
     "plugins/prymer/skills/checkpoint/SKILL.md",
     "plugins/prymer/skills/curate/SKILL.md",
     "plugins/prymer/skills/dispatch/SKILL.md",
