@@ -11,7 +11,7 @@ codex plugin marketplace add ./
 codex plugin add prymer
 ```
 
-On install, Codex opens Prymer in your browser to authorize — no token to copy. If the connection needs a manual sign-in, run `codex mcp login prymer`. Codex will ask you to trust the plugin hooks on first run (`/hooks`).
+On first use, the signed Prymer helper opens Prymer in your browser to authorize — no token to copy. Codex will ask you to trust the plugin hooks on first run (`/hooks`).
 
 Then run `$prymer-onboard` (or open `/skills`) to bind this project to a channel — the marketplace install has no channel baked in, so onboarding (or hand-adding a `<!-- prymer-channel: <workspace-slug>/<channel-key> -->` line to `AGENTS.md`) is what tells future sessions which one to use.
 
