@@ -21,6 +21,15 @@
                         "command": "node \"${PLUGIN_ROOT}/hooks/lifecycle.mjs\" pre-tool-use codex"
                     }
                 ]
+            },
+            {
+                "matcher": "mcp__(plugin_prymer_)?prymer__gate_approve",
+                "hooks": [
+                    {
+                        "type": "command",
+                        "command": "node \"${PLUGIN_ROOT}/hooks/gate-approve-guard.mjs\""
+                    }
+                ]
             }
         ],
         "Stop": [

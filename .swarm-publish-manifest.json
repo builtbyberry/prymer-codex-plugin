@@ -5,6 +5,7 @@
     "plugins/prymer/.mcp.json",
     "plugins/prymer/LICENSE",
     "plugins/prymer/README.md",
+    "plugins/prymer/hooks/gate-approve-guard.mjs",
     "plugins/prymer/hooks/hooks.json",
     "plugins/prymer/hooks/lifecycle.mjs",
     "plugins/prymer/runtime/client-edge-v1.json",
