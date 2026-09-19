@@ -25,5 +25,6 @@
     "plugins/prymer/skills/prymer/reference/curation.md",
     "plugins/prymer/skills/prymer/reference/dispatch.md",
     "plugins/prymer/skills/prymer/reference/handoff.md",
-    "plugins/prymer/skills/prymer/reference/tools.md"
+    "plugins/prymer/skills/prymer/reference/tools.md",
+    "plugins/prymer/skills/reviewer/SKILL.md"
 ]
