@@ -8,7 +8,7 @@ Connects this project to Prymer, the shared context bus, and teaches Codex the r
 - `runtime/` — the credential-free routing broker plus signed macOS helper; the helper alone owns browser OAuth, Keychain state, and Cloud calls.
 - `skills/prymer/` — the Prymer skill: how to use the tools well (loading, checkpointing, curation, handoffs, and dispatch).
 - `skills/` — the `prymer-load`, `prymer-checkpoint`, `prymer-onboard`, `prymer-curate`, `prymer-handoff`, `prymer-dispatch`, `prymer-project`, `prymer-project-brief`, and `prymer-reviewer` skills (invoke with `$prymer-load` or `/skills`).
-- `hooks/hooks.json` — reminders to load context at session start (and again after a compaction) and checkpoint when you finish.
+- `hooks/hooks.json` — reminders to load context at session start (and again after a compaction) and checkpoint when you finish, plus an advisory guard that blocks an agent from approving its own review gate with the self-approval override on, locally (the Prymer server enforces this regardless).
 
 ## Install
 
