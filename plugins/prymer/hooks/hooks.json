@@ -30,6 +30,16 @@
                         "command": "node \"${PLUGIN_ROOT}/hooks/gate-approve-guard.mjs\""
                     }
                 ]
+            },
+            {
+                "matcher": "^(Bash|apply_patch|Edit|Write)$",
+                "hooks": [
+                    {
+                        "type": "command",
+                        "command": "node \"${PLUGIN_ROOT}/hooks/pre-tool-save.mjs\" codex",
+                        "timeout": 5
+                    }
+                ]
             }
         ],
         "Stop": [
